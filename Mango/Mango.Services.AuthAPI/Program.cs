@@ -27,7 +27,8 @@ builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("ApiSett
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<IAuthService,AuthService>();
+builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
