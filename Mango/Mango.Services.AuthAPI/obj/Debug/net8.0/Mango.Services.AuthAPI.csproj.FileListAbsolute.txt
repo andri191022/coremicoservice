@@ -77,3 +77,4 @@ E:\Project\coremicoservice\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\refint\
 E:\Project\coremicoservice\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\Mango.Services.AuthAPI.pdb
 E:\Project\coremicoservice\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\Mango.Services.AuthAPI.genruntimeconfig.cache
 E:\Project\coremicoservice\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\ref\Mango.Services.AuthAPI.dll
+E:\Project\coremicoservice\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
