@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Andrik\\Mango\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj": {}
+    "E:\\Project\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj": {}
   },
   "projects": {
-    "D:\\Andrik\\Mango\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj": {
+    "E:\\Project\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Andrik\\Mango\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+        "projectUniqueName": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
         "projectName": "Mango.Services.CouponAPI",
-        "projectPath": "D:\\Andrik\\Mango\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+        "projectPath": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
         "packagesPath": "C:\\Users\\andri\\.nuget\\packages\\",
-        "outputPath": "D:\\Andrik\\Mango\\Mango\\Mango.Services.CouponAPI\\obj\\",
+        "outputPath": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andri\\AppData\\Roaming\\NuGet\\NuGet.Config",

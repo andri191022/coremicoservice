@@ -24,11 +24,15 @@ namespace Mango.Web.Controllers
 
                 list = JsonConvert.DeserializeObject<List<CouponDto>>(Convert.ToString(response.Result));
             }
+            else
+            {
+                TempData["error"] = response?.Messages;
+            }
 
             return View(list);
         }
 
-        public  IActionResult CouponCreate()
+        public IActionResult CouponCreate()
         {
             CouponDto obj = new CouponDto();
             return View(obj);
@@ -42,13 +46,18 @@ namespace Mango.Web.Controllers
                 ResponseDto? response = await _couponService.CreateCouponAsync(model);
                 if (response != null && response.IsSuccess)
                 {
+                    TempData["success"] = "Coupon create succesfully";
                     return RedirectToAction(nameof(CouponIndex));
+                }
+                else
+                {
+                    TempData["error"] = response?.Messages;
                 }
             }
             return View(model);
         }
 
-       public async Task<IActionResult> CouponDelete(int couponId)
+        public async Task<IActionResult> CouponDelete(int couponId)
         {
             ResponseDto? response = await _couponService.GetCouponByIdAsync(couponId);
 
@@ -56,6 +65,10 @@ namespace Mango.Web.Controllers
             {
                 CouponDto? model = JsonConvert.DeserializeObject<CouponDto>(Convert.ToString(response.Result));
                 return View(model);
+            }
+            else
+            {
+                TempData["error"] = response?.Messages;
             }
 
             return NotFound();
@@ -68,7 +81,12 @@ namespace Mango.Web.Controllers
 
             if (response != null && response.IsSuccess)
             {
+                TempData["success"] = "Coupon Delete succesfully";
                 return RedirectToAction(nameof(CouponIndex));
+            }
+            else
+            {
+                TempData["error"] = response?.Messages;
             }
 
             return View(couponDto);
