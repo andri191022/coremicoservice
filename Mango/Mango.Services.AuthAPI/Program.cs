@@ -1,5 +1,8 @@
 using AutoMapper;
 using Mango.Services.AuthAPI.Data;
+using Mango.Services.AuthAPI.Model;
+using Mango.Services.AuthAPI.Services;
+using Mango.Services.AuthAPI.Services.IServices;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,7 +14,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("ApiSettings:JwtOptions"));
 
 ////using automaper
 //IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
@@ -22,6 +27,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkSto
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<IAuthService,AuthService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
