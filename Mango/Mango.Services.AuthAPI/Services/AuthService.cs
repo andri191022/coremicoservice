@@ -15,6 +15,7 @@ namespace Mango.Services.AuthAPI.Services
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IJwtTokenGenerator _jwtTokenGenerator;
 
+
         public AuthService(AppDbContext db, IJwtTokenGenerator jwtTokenGenerator, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _db = db;
@@ -22,6 +23,22 @@ namespace Mango.Services.AuthAPI.Services
             _roleManager = roleManager;
             _jwtTokenGenerator = jwtTokenGenerator;
 
+        }
+
+        public async Task<bool> AssignRole(string? email, string roleName)
+        {
+            var user = _db.applicationUsers.FirstOrDefault(u => u.Email.ToUpper() == email.ToUpper());
+            if (user != null)
+            {
+                if (!_roleManager.RoleExistsAsync(roleName).GetAwaiter().GetResult())
+                {
+                    //create role doesnt exist
+                    _roleManager.CreateAsync(new IdentityRole(roleName)).GetAwaiter().GetResult();
+                }
+                await _userManager.AddToRoleAsync(user, roleName);
+                return true;
+            }
+            return false;
         }
 
         public async Task<LoginResponseDto> Login(LoginRequestDto loginRequestDto)

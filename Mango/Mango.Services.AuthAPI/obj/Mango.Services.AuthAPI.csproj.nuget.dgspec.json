@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj": {}
+    "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj": {}
   },
   "projects": {
-    "E:\\Project\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj": {
+    "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
+        "projectUniqueName": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
         "projectName": "Mango.Services.AuthAPI",
-        "projectPath": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
+        "projectPath": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
         "packagesPath": "C:\\Users\\andri\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\obj\\",
+        "outputPath": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andri\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3436,11 +3436,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+      "projectUniqueName": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
       "projectName": "Mango.Services.CouponAPI",
-      "projectPath": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+      "projectPath": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
       "packagesPath": "C:\\Users\\andri\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\obj\\",
+      "outputPath": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andri\\AppData\\Roaming\\NuGet\\NuGet.Config",

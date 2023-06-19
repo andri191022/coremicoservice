@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KPxyMJrxtIhQ496ZubTz2qrZOl/iuW/k0sEFgVd9GoSzj+PsKU+yS0wf/4LY72g71FVdXiW3nl9nfjLgirszuA==",
+  "dgSpecHash": "26DFUE5VwHdXrf0Bt+ORnqfMNGJYGOzrodpmPo7FnE3/FoBKv1KdLaK7Lhh7vOGQpIi073qikt0CiXbzwthDWw==",
   "success": true,
-  "projectFilePath": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
+  "projectFilePath": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andri\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

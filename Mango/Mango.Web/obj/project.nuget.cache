@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mCmw8cITf/5+jfk4fJp8aFBv7DVYw7M44BUSHT49EkZqKC57hy5/U2pFjDOM1hzrqUDZQDkH2FptYo/phzR3Vw==",
+  "dgSpecHash": "vKg3kRyYcAKVEpcfFE9cUy9Dsox6SUP0swuPk4+g/cdsLloTjhqSD4dNvkwDcPvPICKrGvt4N70vanlBUI2sRw==",
   "success": true,
-  "projectFilePath": "E:\\Project\\coremicoservice\\Mango\\Mango.Web\\Mango.Web.csproj",
+  "projectFilePath": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Web\\Mango.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andri\\.nuget\\packages\\jquery\\1.6.3\\jquery.1.6.3.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
