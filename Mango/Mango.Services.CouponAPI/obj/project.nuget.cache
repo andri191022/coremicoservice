@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KPxyMJrxtIhQ496ZubTz2qrZOl/iuW/k0sEFgVd9GoSzj+PsKU+yS0wf/4LY72g71FVdXiW3nl9nfjLgirszuA==",
+  "dgSpecHash": "s5OttAuAwpIPU2+t1eAHme3QpOX9sYkUFitXB9Wb7vcLpFVGOpMYOi+VaQryE7kSrJ/k/hz8U/C15+R3lkV5CQ==",
   "success": true,
   "projectFilePath": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\andri\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.8\\microsoft.aspnetcore.authentication.jwtbearer.7.0.8.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0-preview.4.23260.4\\microsoft.aspnetcore.openapi.8.0.0-preview.4.23260.4.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

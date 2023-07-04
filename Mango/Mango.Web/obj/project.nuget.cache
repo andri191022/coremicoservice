@@ -1,11 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "mCmw8cITf/5+jfk4fJp8aFBv7DVYw7M44BUSHT49EkZqKC57hy5/U2pFjDOM1hzrqUDZQDkH2FptYo/phzR3Vw==",
+  "dgSpecHash": "kaHe1dZsBQ1Iv30YFXgW3AgXZHojxOstsM++sZ0pJCnxC9c4+D6FO9HE6lt6W+1eWIPLBGfj7pppFnqeO5yaMA==",
   "success": true,
   "projectFilePath": "E:\\Project\\coremicoservice\\Mango\\Mango.Web\\Mango.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andri\\.nuget\\packages\\jquery\\1.6.3\\jquery.1.6.3.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.24.0\\microsoft.identitymodel.abstractions.6.24.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.24.0\\microsoft.identitymodel.jsonwebtokens.6.24.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.identitymodel.logging\\6.24.0\\microsoft.identitymodel.logging.6.24.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.24.0\\microsoft.identitymodel.tokens.6.24.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.24.0\\system.identitymodel.tokens.jwt.6.24.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\toastr\\2.1.1\\toastr.2.1.1.nupkg.sha512"
   ],
   "logs": []

@@ -98,3 +98,8 @@ E:\Project\coremicoservice\Mango\Mango.Web\obj\Debug\net8.0\refint\Mango.Web.dll
 E:\Project\coremicoservice\Mango\Mango.Web\obj\Debug\net8.0\Mango.Web.pdb
 E:\Project\coremicoservice\Mango\Mango.Web\obj\Debug\net8.0\Mango.Web.genruntimeconfig.cache
 E:\Project\coremicoservice\Mango\Mango.Web\obj\Debug\net8.0\ref\Mango.Web.dll
+E:\Project\coremicoservice\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Project\coremicoservice\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Project\coremicoservice\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Project\coremicoservice\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Project\coremicoservice\Mango\Mango.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

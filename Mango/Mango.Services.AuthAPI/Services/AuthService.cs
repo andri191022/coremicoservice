@@ -3,6 +3,7 @@ using Mango.Services.AuthAPI.Model;
 using Mango.Services.AuthAPI.Model.Dto;
 using Mango.Services.AuthAPI.Services.IServices;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.InteropServices;
 
@@ -33,13 +34,21 @@ namespace Mango.Services.AuthAPI.Services
                 return new LoginResponseDto() { User = null, Token = "" };
             }
 
-            var token = _jwtTokenGenerator.GenerateToken(user);
+            //var ss = await _roleManager.CreateAsync(new IdentityRole { Name = "Admin" });
+            //var cc = await _userManager.AddToRoleAsync(user, "ADMIN");
+
+
+            //if user was found, generate jwt token
+            var roles = await _userManager.GetRolesAsync(user);
+
+            var token = _jwtTokenGenerator.GenerateToken(user, roles);
             UserDto userDto = new()
             {
                 Email = user.Email,
                 ID = user.Id,
                 Name = user.Name,
                 PhoneNumber = user.PhoneNumber
+                
             };
 
             LoginResponseDto loginResponseDto = new LoginResponseDto()
