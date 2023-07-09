@@ -718,11 +718,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Web\\Mango.Web.csproj",
+      "projectUniqueName": "E:\\Project\\coremicoservice\\Mango\\Mango.Web\\Mango.Web.csproj",
       "projectName": "Mango.Web",
-      "projectPath": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Web\\Mango.Web.csproj",
+      "projectPath": "E:\\Project\\coremicoservice\\Mango\\Mango.Web\\Mango.Web.csproj",
       "packagesPath": "C:\\Users\\andri\\.nuget\\packages\\",
-      "outputPath": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Web\\obj\\",
+      "outputPath": "E:\\Project\\coremicoservice\\Mango\\Mango.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andri\\AppData\\Roaming\\NuGet\\NuGet.Config",

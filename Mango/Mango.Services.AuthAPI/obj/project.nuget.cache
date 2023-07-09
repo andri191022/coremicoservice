@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yYFhLGbThSJwOP1KmQmfTtlt7LcrQpqa+HdV2MHZvg4wTTDWTGwKzafTFy0ORgmTVXeLLWM/2iLyRzJWrLsHeg==",
+  "dgSpecHash": "I/J8R4SZfrDaabtTz2o9gNVznuPoiUIdmysqoyv1QL24XBKmUlS+f95cgUu8ZuX6o6yeLvC1M1Q6NjyeOpkBTA==",
   "success": true,
-  "projectFilePath": "D:\\Andrik\\Mango\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
+  "projectFilePath": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andri\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
