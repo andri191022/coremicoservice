@@ -9,15 +9,23 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddHttpClient();
+
+//custom service
 builder.Services.AddHttpClient<ICouponService, CouponService>();
 builder.Services.AddHttpClient<IAuthService, AuthService>();
+builder.Services.AddHttpClient<IProductService, ProductService>();
+//end custom
 
 SD.CouponAPIBase = builder.Configuration.GetValue<string>("ServiceUrls:CouponApi");
 SD.AuthAPIBase = builder.Configuration.GetValue<string>("ServiceUrls:AuthAPI");
+SD.ProductAPIBase = builder.Configuration.GetValue<string>("ServiceUrls:ProductAPI");
 
+//register code injection
 builder.Services.AddScoped<ITokenProvider, TokenProvider>();
 builder.Services.AddScoped<ICouponService, CouponService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+//end register
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt =>
 {

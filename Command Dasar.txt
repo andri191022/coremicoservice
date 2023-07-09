@@ -2,3 +2,6 @@
 
 --Product
 add-migration addProductAndSeedTable
+
+--shoppingcart
+add-migration AddShoppingCartTables
