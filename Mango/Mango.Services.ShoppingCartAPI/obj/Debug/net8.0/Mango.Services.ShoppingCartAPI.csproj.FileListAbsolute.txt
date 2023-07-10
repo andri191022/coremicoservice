@@ -78,3 +78,4 @@ E:\Project\coremicoservice\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net8.0
 E:\Project\coremicoservice\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net8.0\Mango.Services.ShoppingCartAPI.pdb
 E:\Project\coremicoservice\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net8.0\Mango.Services.ShoppingCartAPI.genruntimeconfig.cache
 E:\Project\coremicoservice\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net8.0\ref\Mango.Services.ShoppingCartAPI.dll
+E:\Project\coremicoservice\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\Newtonsoft.Json.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nmUd8dyBEzGguDBGjGe06qEnq+cG4DqQu4JTH9uxI54BbPl+5DHrBr1d8ems/Hn+S8+oclqkfbUEsqXkTXGsaQ==",
+  "dgSpecHash": "a6mVCYyRKUeancLDuFJKxPRja1PbZ2WUTMWg/p5E7tgLyeMBH7p0WDbap+wnTsLOU/LMTpW2TIlX0UCm4m0LHw==",
   "success": true,
   "projectFilePath": "E:\\Project\\coremicoservice\\Mango\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "C:\\Users\\andri\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\andri\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
